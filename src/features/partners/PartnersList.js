@@ -2,7 +2,7 @@ import { useSelector } from "react-redux";
 import { Col, Row } from "reactstrap";
 import Partner from "./Partner";
 import { selectAllPartners } from "./partnersSlice";
-import Error from "../../components/Errors";
+import Error from "../../components/Error";
 import Loading from "../../components/Loading";
 
 const PartnersList = () => {

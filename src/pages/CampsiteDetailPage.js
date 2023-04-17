@@ -6,7 +6,7 @@ import CampsiteDetail from "../features/campsites/CampsiteDetail";
 import CommentsList from "../features/comments/CommentsList";
 import SubHeader from "../components/SubHeader";
 import Loading from "../components/Loading";
-import Error from "../components/Errors";
+import Error from "../components/Error";
 
 const CampsiteDetailPage = () => {
   const { campsiteId } = useParams();
